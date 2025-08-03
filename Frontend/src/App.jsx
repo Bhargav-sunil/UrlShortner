@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000";
+const API = "https://urlshortner-cl6v.onrender.com";
 
 function App() {
   const [originalUrl, setOriginalUrl] = useState("");
